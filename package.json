@@ -1,0 +1,27 @@
+{
+  "name": "rtd-realtime",
+  "version": "1.0.0",
+  "description": "nodejs starter script for accessing RTD realtime feeds",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rideRTD/rtd-realtime.git"
+  },
+  "keywords": [
+    "gtfs-realtime"
+  ],
+  "author": "Steve Szczecina",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/rideRTD/rtd-realtime/issues"
+  },
+  "homepage": "https://github.com/rideRTD/rtd-realtime#readme",
+  "dependencies": {
+    "btoa": "^1.1.2",
+    "gtfs-realtime-bindings": "0.0.4",
+    "mkdirp": "^0.5.1"
+  }
+}
