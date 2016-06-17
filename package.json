@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rideRTD/rtd-realtime.git"
+    "url": "git+https://github.com/steveszc/rtd-realtime.git"
   },
   "keywords": [
     "gtfs-realtime"
@@ -16,9 +16,9 @@
   "author": "Steve Szczecina",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/rideRTD/rtd-realtime/issues"
+    "url": "https://github.com/steveszc/rtd-realtime/issues"
   },
-  "homepage": "https://github.com/rideRTD/rtd-realtime#readme",
+  "homepage": "https://github.com/steveszc/rtd-realtime#readme",
   "dependencies": {
     "btoa": "^1.1.2",
     "gtfs-realtime-bindings": "0.0.4",
