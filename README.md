@@ -5,7 +5,7 @@ nodejs module for accessing RTD realtime feeds. Data feed formatting follows GTF
 
 Utilizes [Google's GTFS-realtime binding library for NodeJS](https://github.com/google/gtfs-realtime-bindings/tree/master/nodejs)
 
-`npm install ridertd/rtd-realtime`
+`npm install steveszc/rtd-realtime`
 
 ```
 var realtime = require('rtd-realtime');
