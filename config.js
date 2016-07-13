@@ -5,22 +5,22 @@ var btoa = require('btoa');
 // Requests for production credentials can me made at the following url:
 // http://www.rtd-denver.com/gtfs-developer-guide.shtml
 var auth = {
-    user: 'develop',
-    pw: 'Gtf5rtac#ss'
+  user: 'develop',
+  pw: 'Gtf5rtac#ss'
 };
 
 module.exports = {
-    path: {
-        VehiclePositions: '/google_sync/VehiclePosition.pb',
-        TripUpdates: '/google_sync/TripUpdate.pb'
-    },
-    http: {
-        hostname: 'www.rtd-denver.com',
-        // path: 'must be specified when used in http call',
-        port: 80,
-        method: 'GET',
-        headers: {
-            'Authorization': 'Basic ' + btoa(unescape(encodeURIComponent(auth.user + ':' + auth.pw)))
-        }
+  path: {
+    VehiclePositions: '/google_sync/VehiclePosition.pb',
+    TripUpdates: '/google_sync/TripUpdate.pb'
+  },
+  http: {
+    hostname: 'www.rtd-denver.com',
+    // path: 'must be specified when used in http call',
+    port: 80,
+    method: 'GET',
+    headers: {
+      'Authorization': 'Basic ' + btoa(unescape(encodeURIComponent(auth.user + ':' + auth.pw)))
     }
+  }
 };
