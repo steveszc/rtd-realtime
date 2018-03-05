@@ -61,5 +61,5 @@ realtime.TripUpdates.load( (err,feed) => {
 });
 ```
 
-##IMPORTANT!
+## IMPORTANT!
 This module includes a set of access credentials in config.js that are intended for development purposes only. Do not use these credentials in a production app. There is no guarantee that they will work. To request a unique set of credentials please visit the [RTD Developer Resources webpage](http://www.rtd-denver.com/gtfs-developer-guide.shtml#realtime-feeds) and request access to GTFS-RT. You'll need to fork this repo, update config.js with your credentials, and use that version in your app.
